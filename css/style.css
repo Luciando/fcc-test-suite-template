@@ -1,0 +1,23 @@
+#header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: lightgray;
+}
+#nav-bar{
+    display: flex;
+}
+.nav-link{
+    margin-right: 20px;
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+}
+#header-img{
+    height: 50px;
+}
