@@ -81,10 +81,42 @@ p{
     height: 40%;
     margin-left: 500px;
 }
+
+article{
+    flex: 1;
+    margin-top: 40px;
+   text-align: center;
+    border: 1px solid black;
+    /* flex-direction: row; */
+    margin-left: 40px;
+
+}
 #pricing{
     display: flex;
-   
 }
-#items{
-    flex-direction: column;
+h2{
+    background-color:darkgray ;
+    font-size: 40px;
+}
+.btn{
+    background-color: #f1c40f;
+    width: 80px;
+    height: 40px;
+    border-radius: 5px;
+    margin-left: 80px;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+#footer{
+    display:flex;
+    justify-content: flex-end;
+    background-color:darkgray;
+    margin-top: 30px;
+}
+a{
+    text-decoration: none;
+    font-size:30px ;
+    color: black;
+    margin-left: 10px;
 }
