@@ -1,3 +1,6 @@
+body{
+    background-color: lightgray;
+}
 #header{
     display: flex;
     justify-content: space-between;
@@ -7,7 +10,7 @@
     top: 0;
     left: 0;
     right: 0;
-    background-color: lightgray;
+   
 }
 #nav-bar{
     display: flex;
@@ -20,4 +23,56 @@
 }
 #header-img{
     height: 50px;
+}
+main{
+    padding: 50px;   
+}
+h1{
+    text-align: center;
+}
+#form{
+    align-items: center;
+    /* margin-top: 50px; */
+}
+input[type="email"]{
+    padding: 10px;
+    font-size: 16px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin-left: 700px;
+    width: 400px;
+
+}
+input[type="submit"]{
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color:#f1c40f;
+    text-transform: uppercase;
+    font-weight: 800;
+    width: 10%;
+    margin-left:850px ;
+}
+#features{
+    padding:100px
+
+}
+h3{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 60px;
+
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    margin-left: 60px;
+}
+.fa-solid{
+    color:orange;
+    font-size: 100px;
+
+}
+.para{
+    display: inline-block;
 }
