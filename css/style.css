@@ -81,3 +81,10 @@ p{
     height: 40%;
     margin-left: 500px;
 }
+#pricing{
+    display: flex;
+   
+}
+#items{
+    flex-direction: column;
+}
