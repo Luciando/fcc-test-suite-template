@@ -81,3 +81,11 @@ p{
     height: 40%;
     margin-left: 500px;
 }
+section {
+    display: flex;
+}
+
+article{
+    flex: 1;
+    margin-top: 40px;
+}
